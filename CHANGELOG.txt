@@ -1,3 +1,40 @@
+--------------
+Version 1.1 ()
+--------------
+
+New Features
+------------
+
+General:
+- Added support for XCOM: Terror From The Deep.
+ -- Terror From the Deep ruleset added. You can switch between playing UFO Defense and Terror From The Deep by...
+ -- New draw routines added for TFTD aliens.
+ -- Depth-based palette swaps added and additional particle effects for TFTD battlescape.
+- You can now specify a new directory for configuration files by running the game with the "-cfg <path>" command line parameter.
+- Tooltips added when hovering over items in the inventory screen.
+- Ability to save and load soldier layouts in the inventory screen.
+
+Geoscape
+- Option added to allow for psi-strength improvement.*
+
+Mods included:
+- Mod to support aliens picking up dropped weapons. Default XCOM data made aliens doing this impossible for almost all weapons.
+
+* Denotes that this feature defaults to off as it was not present in the original XCOM.
+
+Bug Fixes
+---------
+
+General:
+- Improved text handling for certain languages.
+
+Geoscape:
+- Added overflow handling for when the player has a too many items being transferred or on crafts when a storage facility is destroyed in base defense. This prevents the player from being stuck in the sell screen by allowing them to sell craft or transferring items.
+- Fixed a rare case where killing a fleeing UFO with a beam weapon failed to generate a crash site.
+
+Battlescape:
+- Fixed long weapons having their sprites cut off when firing. They should now display properly.
+
 Version 1.0 (13-06-2014)
 -------------------------
 New features:
