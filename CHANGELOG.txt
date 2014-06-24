@@ -19,6 +19,7 @@ Geoscape
 
 Mods included:
 - Mod to support aliens picking up dropped weapons. Default XCOM data made aliens doing this impossible for almost all weapons.
+- Fixed "No psionics" to also affect aliens.
 
 * Denotes that this feature defaults to off as it was not present in the original XCOM.
 
@@ -34,6 +35,9 @@ Geoscape:
 
 Battlescape:
 - Fixed long weapons having their sprites cut off when firing. They should now display properly.
+- Fixed location of sprites while they perform melee attacks.
+- Melee units will stop using their aim sprite after their attack ends.
+- Throwing is now slightly less accurate due to a bug-fix.
 
 Version 1.0 (13-06-2014)
 -------------------------
